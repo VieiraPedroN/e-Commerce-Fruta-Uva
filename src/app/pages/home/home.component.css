@@ -49,14 +49,30 @@ nav li{
     display: flex;
     align-items: center;
     list-style: none;
+    justify-content: space-around;
+    width: 30rem;
 }
-nav li .laticineos{
+.laticineos, .cereal, .bebidas, .horta, .fruta{
     display: flex;
     flex-direction: column;
     align-items: center;
-    list-style: none;
+    height: 50px;
+    border: red solid 1px;
+}
+li h3{
+    margin: 0px;
 }
 fa-icon{
     color: bisque;
-    font-size: 35px;
+    font-size: 40px;
+}
+article{
+    border: black solid 1px;
+    height: 70px;
+    width: 100%;
+}
+footer{
+    border: black solid 1px;
+    height: 40px;
+    width: 100%;
 }
