@@ -5,6 +5,7 @@ import { faChampagneGlasses } from '@fortawesome/free-solid-svg-icons';
 import { faCarrot } from '@fortawesome/free-solid-svg-icons';
 import { faAppleWhole} from '@fortawesome/free-solid-svg-icons';
 
+
 @Component({
   selector: 'app-home',
   standalone: false,

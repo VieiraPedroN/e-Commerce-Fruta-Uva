@@ -67,6 +67,8 @@ fa-icon{
     font-size: 40px;
 }
 article{
+    display: flex;
+    justify-content: space-evenly;
     border: black solid 1px;
     height: 35rem;
     width: 100%;

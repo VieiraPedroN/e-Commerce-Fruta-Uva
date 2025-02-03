@@ -3,4 +3,20 @@
     flex-direction: column;
     align-items: center;
     margin-top: 1.5rem;
+    border: black solid 1px;
+}
+.fav{
+    border: black solid 1px;
+}
+.text{
+    border: black solid 1px;
+}
+.text .name{
+    border: red solid 1px;
+}
+.text .price{
+    border: red solid 1px;
+}
+.cart{
+    border: black solid 1px;
 }

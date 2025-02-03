@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { icon } from '@fortawesome/fontawesome-svg-core';
+import { faHeart } from '@fortawesome/free-regular-svg-icons';
 
 @Component({
   selector: 'app-card-itens',
@@ -8,5 +10,5 @@ import { Component } from '@angular/core';
   styleUrl: './card-itens.component.css'
 })
 export class CardItensComponent {
-
+  faFavIcon = faHeart;
 }
