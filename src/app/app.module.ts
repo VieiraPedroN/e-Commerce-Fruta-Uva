@@ -5,13 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { ComponentsComponent } from './components/card-itens/components.component';
+import { CardItensComponent } from './components/card-itens/card-itens.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ComponentsComponent
+    CardItensComponent
   ],
   imports: [
     BrowserModule,
