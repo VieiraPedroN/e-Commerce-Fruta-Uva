@@ -72,6 +72,15 @@ article{
     border: black solid 1px;
     height: 35rem;
     width: 100%;
+    align-items: center;
+    box-sizing: border-box;
+}
+article ol{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2rem;
+    padding: 1rem;
+    box-sizing: border-box;
 }
 footer{
     border: black solid 1px;

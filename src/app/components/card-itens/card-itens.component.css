@@ -2,14 +2,27 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 1.5rem;
+    width: 14rem;
+    height: 15rem;
     border: black solid 1px;
 }
+.card img{
+    margin-top: 0.5rem;
+    width: 160px;
+    height: 140px;
+    z-index: -1;
+}
 .fav{
+    margin-bottom: 8rem;
+    margin-top: -8.5rem;
+    margin-left: 83%;
     border: black solid 1px;
 }
 .text{
+    display: flex;
     border: black solid 1px;
+    flex-direction: column;
+    width: 90%;
 }
 .text .name{
     border: red solid 1px;
@@ -18,5 +31,9 @@
     border: red solid 1px;
 }
 .cart{
+    width: 70%;
+    font-size: 25px;
+    margin: 0.5rem;
     border: black solid 1px;
+    text-align: center;
 }
